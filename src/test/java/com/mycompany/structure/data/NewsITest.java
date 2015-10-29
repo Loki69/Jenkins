@@ -15,7 +15,7 @@ public class NewsITest {
 
     @Test
     public void testSomeMethod() {
-        assertEquals(true, true);
+        assertEquals(1, 1);
     }
     
 }
