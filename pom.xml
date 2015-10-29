@@ -65,7 +65,6 @@
                     <username>asd</username>
                     <password>asd</password>>
                     <update>true</update>
-                    <path>/servlet</path>
                 </configuration>
             </plugin>
         </plugins>
