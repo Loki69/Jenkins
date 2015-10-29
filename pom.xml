@@ -8,11 +8,17 @@
     <name>news-agregator Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+    	<dependency>
+     		<groupId>javax.servlet</groupId>
+     		<artifactId>javax.servlet-api</artifactId>
+     		<version>3.1.0</version>
+     		<scope>provided</scope>
+    	</dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20131018</version>
-            <scope>main</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
