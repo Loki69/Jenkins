@@ -3,7 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
          version="2.4">
-
+   <description>
+      Servlet and JSP Examples.
+    </description>
+    <display-name>Servlet and JSP Examples</display-name>
     <servlet>
         <servlet-name>News</servlet-name>
         <servlet-class>com.mycompany.servlet.NewsAPI</servlet-class>
@@ -13,4 +16,10 @@
         <servlet-name>News</servlet-name>
         <url-pattern>/News</url-pattern>
     </servlet-mapping>
+      <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.xhtml</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app> 
